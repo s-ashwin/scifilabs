@@ -1,0 +1,77 @@
+*{
+    font-family: 'Bree Serif', serif;
+    -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+.nav-wrapper{
+ background-color: white;
+}
+.nav-wrapper i{
+   color: black;
+}
+.nav-wrapper ul li a{
+    color: black;
+}
+.brand-logo{
+    font-family: 'Bebas Neue', cursive;
+    background: #FC466B; 
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.caption{
+    text-shadow:2px 2px 5px black;
+}
+.slider .indicators .indicator-item.active{
+    background-color: #3F5EFB;
+}
+#info .row{
+    display: flex;
+    align-items: center;
+}
+#services h3, #extra p, #info h4{
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B); 
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#info, #icons, #extra{
+    margin: 40px 0;
+}
+h3,h4   {
+    font-family: 'Bebas Neue', cursive;
+}
+.parallax-container{
+    min-height: 280px;
+    height: auto;
+}
+#icons .material-icons{
+    color: teal;
+}
+#icons .col{
+    margin: 20px 0;
+}
+.page-footer{
+    background: #FC466B; 
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B);    
+}
+.align{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.align *{
+    margin: 0 5px;
+}
+@media only screen and (min-width: 1000px){
+    .brand-logo{
+        margin-left: 50px;
+    }
+}
