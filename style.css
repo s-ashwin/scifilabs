@@ -70,6 +70,17 @@ h3,h4   {
 .align *{
     margin: 0 5px;
 }
+.ico{
+    margin-left: 10px;
+}
+.card-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comingsoon{
+    color: grey;
+}
 @media only screen and (min-width: 1000px){
     .brand-logo{
         margin-left: 50px;
