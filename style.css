@@ -35,7 +35,7 @@ user-select: none;
     display: flex;
     align-items: center;
 }
-#services h3, #extra p, #info h4{
+#services h3, #extra p, #info h4, #enquiry h3{
     background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
     background: linear-gradient(to right, #3F5EFB, #FC466B); 
     -webkit-background-clip: text;
@@ -91,6 +91,17 @@ h3,h4   {
 }
 .articlebutton{
     color: teal!important;
+}
+#enquiry button{
+    background-color: #3F5EFB!important;
+}
+#enquiry .container{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    padding: 20px 10px;
+    border-radius: 2px;
+}
+#enquiry{
+    margin-bottom: 50px;
 }
 @media only screen and (min-width: 1000px){
     .brand-logo{
