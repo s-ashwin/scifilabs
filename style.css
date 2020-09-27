@@ -7,23 +7,22 @@
 -o-user-select: none;
 user-select: none;
 }
-
-.nav-wrapper{
- background-color: white;
+.nav{
+    background: none;
+    position: absolute;
+    z-index: 50;
+    box-shadow: none;
 }
 .nav-wrapper i{
-   color: black;
+   color: white;
 }
 .nav-wrapper ul li a{
-    color: black;
+    color: white;
 }
 .brand-logo{
     font-family: 'Bebas Neue', cursive;
-    background: #FC466B; 
-    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
-    background: linear-gradient(to right, #3F5EFB, #FC466B); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-shadow:2px 2px 5px black;
+    line-height: 64px;
 }
 .caption{
     text-shadow:2px 2px 5px black;
