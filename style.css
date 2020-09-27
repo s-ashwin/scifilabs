@@ -26,6 +26,7 @@ user-select: none;
 }
 .caption{
     text-shadow:2px 2px 5px black;
+    top: 25%!important;
 }
 .slider .indicators .indicator-item.active{
     background-color: #3F5EFB;
