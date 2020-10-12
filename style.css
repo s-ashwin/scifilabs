@@ -36,8 +36,12 @@ user-select: none;
     flex-wrap: wrap;
     align-items: center;
 }
+.abt h4{
+    margin-bottom: 0;
+}
 #info p{
     font-size: 1.3rem;
+    margin-top: 2px;
 }
 #services h3, #extra p, #info h4, #enquiry h3{
     background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
