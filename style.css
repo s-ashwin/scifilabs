@@ -18,6 +18,9 @@
 .nav-wrapper ul li a{
     color: white;
 }
+#nav-mobile li a{
+    font-weight: bold;
+}
 .brand-logo{
     font-family: 'Bebas Neue', cursive;
     text-shadow:2px 2px 5px black;
@@ -28,7 +31,7 @@
     top: 25%!important;
 }
 .slider .indicators .indicator-item.active{
-    background-color: #3F5EFB;
+    background-color: black;
 }
 #info .row{
     display: flex;
@@ -65,9 +68,15 @@ h3,h4   {
 #icons .col{
     margin: 20px 0;
 }
+#icons h6{
+    font-weight: bold;
+}
 .page-footer{
     background: #FC466B; 
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);  
+}
+.page-footer h5{
+    font-weight: bold;
 }
 .align{
     display: flex;
@@ -85,6 +94,9 @@ h3,h4   {
     justify-content: space-between;
     align-items: center;
 }
+.card .card-content .card-title{
+    margin-bottom: 0;
+}
 .comingsoon{
     color: grey;
 }
@@ -101,7 +113,8 @@ h3,h4   {
     color: white;
 }
 .articlebutton{
-    color: #e1306c!important;
+    color: teal!important;
+    font-weight: bold;
 }
 #enquiry form{
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
