@@ -53,7 +53,7 @@
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#info, #icons, #extra{
+#info, #extra{
     margin: 40px 0;
 }
 h3,h4   {
@@ -116,13 +116,16 @@ h3,h4   {
     color: teal!important;
     font-weight: bold;
 }
+#enquiry{
+    margin: 70px 0;
+}
+#icons{
+    margin: 70px 0;
+}
 #enquiry form{
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
     padding: 20px 20px;
     border-radius: 2px;
-}
-#enquiry{
-    margin-bottom: 50px;
 }
 .btn{
     -webkit-background-size: 250%;
