@@ -71,6 +71,16 @@ h3,h4   {
 #icons h6{
     font-weight: bold;
 }
+.card-title .material-icons{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 80px;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
 .page-footer{
     background: #FC466B; 
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);  
